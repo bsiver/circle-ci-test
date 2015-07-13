@@ -1,0 +1,4 @@
+test:
+    override:
+        - cd dumb-clojure-app && make tests
+        - cd dumb-python-app && make tests
