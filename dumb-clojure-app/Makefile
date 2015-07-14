@@ -3,5 +3,5 @@ tests:
 test:
 	lein test
 coverage:
-	lein cloverage -o $$CIRCLE_ARTIFACTS
+	lein cloverage -o $$CIRCLE_ARTIFACTS/dumb-clojure-app/
 
