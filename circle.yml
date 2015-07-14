@@ -1,3 +1,6 @@
+dependencies:
+    override:
+        - sudo pip install coverage
 test:
     override:
         - cd dumb-clojure-app && make tests
