@@ -1,7 +1,7 @@
-test:
-	tests coverage
 tests:
+	make test && make coverage
+test:
 	lein test
 coverage:
-	lein cloverage -o $CIRCLE_ARTIFACTS
+	lein cloverage -o $$CIRCLE_ARTIFACTS
 
