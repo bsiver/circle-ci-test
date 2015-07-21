@@ -5,3 +5,8 @@ test:
     override:
         - cd dumb-clojure-app && make tests
         - cd dumb-python-app && make tests
+deployment:
+    create-release-candidate:
+        branch: master
+        commands:
+            - sh .circle/create-branch.sh test-rc123
